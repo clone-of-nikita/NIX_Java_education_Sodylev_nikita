@@ -1,4 +1,7 @@
 import java.util.Scanner;
+
+import jdk.javadoc.internal.doclets.toolkit.taglets.ReturnTaglet;
+
 import java.util.Date;
 public class day_4{
     public static void main(String[] args) {
@@ -24,12 +27,20 @@ public class day_4{
         Integer age = ((remainder3*70 + remainder5*21+remainder7*15)%105);
         System.out.printf("Your age is " + age +";that`s good time to start programming");
 
-        //System.out.println("Lets test your programming knowledge.");
-        //System.out.println("Why you we use metods?");
-        //System.out.println("1.To repeat a statemant multiple times.");
-        //System.out.println("2.To decompromise a program into several small subroutines.");
-        //System.out.println("3.To determine the execution time of a program.");
-        //System.out.println("4.To interrupt the execution of a program.");
-        //Integer num = scanner.nextInt();
+        System.out.println("Lets test your programming knowledge.");
+        System.out.println("Why you we use metods?");
+        System.out.println("1.To repeat a statemant multiple times.");
+        System.out.println("2.To decompromise a program into several small subroutines.");
+        System.out.println("3.To determine the execution time of a program.");
+        System.out.println("4.To interrupt the execution of a program.");
+        Integer num = scanner.nextInt();
+
+        while(num!=2){
+            System.out.println("Bitch");
+            break;
+        }
+        if(num == 2){
+            System.out.println("Good job");
+        }
     }
 }
