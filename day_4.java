@@ -35,12 +35,5 @@ public class day_4{
         System.out.println("4.To interrupt the execution of a program.");
         Integer num = scanner.nextInt();
 
-        while(num!=2){
-            System.out.println("Bitch");
-            break;
-        }
-        if(num == 2){
-            System.out.println("Good job");
-        }
     }
 }
