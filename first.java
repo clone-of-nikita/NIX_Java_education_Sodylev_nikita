@@ -34,7 +34,7 @@ public class first{
         System.out.println("3.To determine the execution time of a program.");
         System.out.println("4.To interrupt the execution of a program.");
 
-        while(true){
+        while(true){//Added loop
             Integer num1 = scanner.nextInt();
             if (num1 == 1){
                 System.out.println("Wrong answer");
