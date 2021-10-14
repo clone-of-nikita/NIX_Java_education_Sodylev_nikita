@@ -56,5 +56,6 @@ public class first{
                 continue;
             }
         }
+        System.out.println("The end of a program!!!!!");
     }
 }
